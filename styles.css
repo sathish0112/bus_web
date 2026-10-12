@@ -80,17 +80,11 @@
             background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
             color: #ffffff;
             padding: 80px 5%;
-            text-align: ;
+            text-align:  ;
         }
         .hero-content { max-width: 800px; margin: 20px auto; }
         .hero-title { font-size: 42px; font-weight: 700; line-height: 1.2; margin-left: 20px; }
         .hero-subtitle { font-size: 18px; color: #94a3b8;text-align: center; margin-left : 40px; line-height: 1.6; }
         
 
-        .section { text-align: center; margin-bottom: 40px; }
-        .course-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
+  
