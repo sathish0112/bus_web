@@ -1,0 +1,96 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary-blue: #0b3c95;
+            --dark-blue: #072663;
+            --text-dark: #333333;
+            --text-light: #666666;
+            --bg-light: #f8f9fa;
+            --border-color: #dddddd;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            border-bottom: 1px solid var(--border-color);
+            background: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav div a{
+            padding-left: 30px;
+        }
+
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 15px;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        nav a:hover, nav a.active {
+            color: var(--primary-blue);
+        }
+
+        .btn-signin {
+            border: 1px solid var(--text-dark);
+            padding: 8px 16px;
+            border-radius: 4px;
+            background: transparent;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .btn-signin:hover {
+            background: var(--bg-light);
+        }
+
+            .hero-section {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+            color: #ffffff;
+            padding: 80px 5%;
+            text-align: ;
+        }
+        .hero-content { max-width: 800px; margin: 20px auto; }
+        .hero-title { font-size: 42px; font-weight: 700; line-height: 1.2; margin-left: 20px; }
+        .hero-subtitle { font-size: 18px; color: #94a3b8;text-align: center; margin-left : 40px; line-height: 1.6; }
+        
+
+        .section { text-align: center; margin-bottom: 40px; }
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
