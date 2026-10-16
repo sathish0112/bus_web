@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EdTechHub - Live Interactive Demo Sandbox</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
 
 <body>
 
     <header>
-        <div class="logo">EdTechHub <span style="color:white; font-size:16px;">Portal</span></div>
-        <div class="badge">LIVE DEMO MODE</div>
+         <nav class="navbar">
+        <a href="index.html" class="logo">EdTechHub</a>
+        <div class="nav-links">
+            <a id="nav-home" class="active">Home</a>
+            <a id="nav-demo" href="demo.html" >Demo Sandbox</a>
+            <a id="nav-doc">Documentation</a>
+            <a href="courses.html">Programs</a>
+            <a href="#">Offline Centres</a>
+           
+            <form action="form.html" style="display: inline;">
+                <button class="signin-btn" type="submit">Sign in</button>
+            </form>
+        </div>
+    </nav>
+    <br>
     </header>
+
+        
 
     <div class="container">
         <div class="main-content">
@@ -32,7 +49,7 @@
                     <label style="display:block; margin-bottom:8px;"><input type="radio" name="quiz"> Direct continuation of a strong downward bearish run</label>
                     <label style="display:block; margin-bottom:8px;"><input type="radio" name="quiz"> Immediate stagnation and low market volume volatility</label>
                 </div>
-                <button class="btn" onclick="alert('Demo Response Submitted! In production, this stores to the student database.')">Submit Answer</button>
+                <button class="btn">Submit Answer</button>
             </div>
         </div>
 

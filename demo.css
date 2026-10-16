@@ -1,0 +1,64 @@
+
+body {
+  background-color: #ffffff;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.nav-links{
+    display: flex;
+    float: right;
+    align-items: center;
+    margin: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  border-bottom: 1px solid var(--border-color);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav div a {
+  padding-left: 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--primary-blue);
+}
+
+.btn-signin {
+  border: 1px solid var(--text-dark);
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-signin:hover {
+  background: var(--bg-light);
+}
+
