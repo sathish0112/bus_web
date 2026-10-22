@@ -22,11 +22,10 @@ body {
 
 .nav-links{
     display: flex;
-    float: right;
     align-items: center;
     margin: 20px;
 }
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,7 +77,7 @@ nav a.active {
 }
 
 .hero-section {
-  background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+  background: linear-gradient(135deg, #091026 0%, #0740c4 100%);
   color: #ffffff;
   padding: 80px 5%;
 }
@@ -87,7 +86,7 @@ nav a.active {
   margin: 20px auto;
 }
 .hero-title {
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
   margin-left: 20px;
@@ -104,11 +103,11 @@ nav a.active {
   display: flex;
   align-items: center;       
   justify-content: space-between; 
-  background-color:#0b3c95;   
+  background-color: #5277ef ;   
   font-family: system-ui, -apple-system, sans-serif;
   padding: 80px 8%;
   gap: 50px;  
-  margin: 50px;              
+              
 }
 
 .home-content {
@@ -118,7 +117,7 @@ nav a.active {
 }
 
 .home-title {
-  font-size: 44px;
+  font-size: 51px;
   font-weight: 800;
   line-height: 1.2;
   color: #070c15dd;           

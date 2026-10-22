@@ -1,4 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
+:root {
+  --primary-blue: #0b3c95;
+  --dark-blue: #072663;
+  --text-dark: #333333;
+  --text-light: #666666;
+  --bg-light: #f8f9fa;
+  --border-color: #dddddd;
+}
 body {
   background-color: #ffffff;
   color: var(--text-dark);
@@ -11,7 +25,7 @@ body {
     align-items: center;
     margin: 20px;
 }
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
