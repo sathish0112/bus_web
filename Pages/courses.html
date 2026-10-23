@@ -13,39 +13,93 @@
             <a id="nav-demo" href="demo.html" >Demo Sandbox</a>
             <a id="nav-doc">Documentation</a>
             <a href="courses.html">Programs</a>
-            <!-- <a href="#">Offline Centres</a> -->
-           
-            <form action="form.html" style="display: inline;">
+                 <form action="form.html" style="display: inline;">
                 <button class="signin-btn" type="submit">Sign in</button>
             </form>
         </div>
     </nav>
-    <br>
- <section class="courses">
-    <h1>Our Programs</h1>
-    <form>
-     <div class="card">
-      <span class="badge offline">Offline + Online</span>
-      <h3>Ultimate Trading Masterclass</h3>
-      <p>Learn Stock Markets, Crypto, and Technical Analysis in our physical labs.</p>
-      <button class="btn" type="submit">View Syllabus</button>
-    </div>
+     <div class="course-grid" id="courseGrid">
+            
+            <div class="course-card" data-modes="online,offline">
+                <div>
+                    <div class="card-header">
+                        <span class="category-badge">Trading & Finance</span>
+                        <span class="rating">⭐ 4.9</span>
+                    </div>
+                    <h3 class="course-title">Stock Market & amp; Algo Trading Blueprint</h3>
+                    <p class="duration">⏱️ 3 Months Course Duration</p>
+                    <div class="modes-container">
+                        <span class="mode-badge mode-online">🌐 Live Online</span>
+                        <span class="mode-badge mode-offline">🏫 Classroom Available</span>
+                    </div>
+                </div> 
+                <div class="card-actions">
+                    <a href="#" class="action-btn btn-secondary">Syllabus</a>
+                    <a href="#" class="action-btn btn-primary">Details</a>
+                </div>
+            </div>
+            <br>
 
-    </form>
-    <div class="card">
-      <span class="badge online">100% Online</span>
-      <h3>Digital Marketing & Growth</h3>
-      <p>Master SEO, Ads, and Content Strategy through live digital sessions.</p>
-      <button class="btn">View Syllabus</button>
-    </div>
+            <div class="course-card" data-modes="online">
+                <div>
+                    <div class="card-header">
+                        <span class="category-badge">Marketing</span>
+                        <span class="rating">⭐ 4.8</span>
+                    </div>
+                    <h3 class="course-title">Dynamic Digital Marketing Masterclass</h3>
+                    <p class="duration">⏱️ 4 Months Course Duration</p>
+                    <div class="modes-container">
+                        <span class="mode-badge mode-online">🌐 Live Online Only</span>
+                    </div>
+                </div>
+                <div class="card-actions">
+                    <a href="#" class="action-btn btn-secondary">Syllabus</a>
+                    <a href="#" class="action-btn btn-primary">Details</a>
+                </div>
+            </div>
+            <br>
 
-     </div>
-    </section>
-    <br>
-    <div class="sss" > 
-    <p>Financial freedom isn’t born out of luck; it is built through structured data, sharp marketing strategies, and disciplined trading habits. Our dual online-offline learning ecosystem bridges the gap between theory and actual profit. Join thousands of successful alumni who took control of their future—click below to book your free masterclass.</p>
-    </div>
-   
-    
+            <div class="course-card" data-modes="offline">
+                <div>
+                    <div class="card-header">
+                        <span class="category-badge">Web Development</span>
+                        <span class="rating">⭐ 4.7</span>
+                    </div>
+                    <h3 class="course-title">CCBP Tech 4.0 Web Intensive</h3>
+                    <p class="duration">⏱️ 6 Months Course Duration</p>
+                    <div class="modes-container">
+                        <span class="mode-badge mode-offline">🏫 Classroom Only</span>
+                    </div>
+                </div>
+                <div class="card-actions">
+                    <a href="#" class="action-btn btn-secondary">Syllabus</a>
+                    <a href="#" class="action-btn btn-primary">Details</a>
+                </div>
+            </div>
+            <br>
 
-</body>
+        </div>
+    </div>
+<style>
+     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+        body { background-color: #f8fafc; color: #1e293b; padding-bottom: 60px; }
+
+        /* Navigation Bar Layout */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ffffff;
+            padding: 15px 5%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo { font-size: 22px; font-weight: 700; color: #2563eb; text-decoration: none; }
+        .nav-links a { margin-right: 25px; text-decoration: none; color: #475569; font-weight: 500; }
+        .nav-links a:hover { color: #2563eb; }
+        .cta-btn { background: #2563eb; color: #ffffff; padding: 10px 20px; border-radius: 6px; border: none; font-weight: 600; cursor: pointer; }
+        .cta-btn:hover { background: #1d4ed8; }
+        
+</style>
