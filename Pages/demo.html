@@ -3,32 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    ><title>EdTechHub - Live Interactive Demo Sandbox</title>
-    <link rel="stylesheet" href="demo.css">
+    <title>EdTechHub - Live Interactive Demo Sandbox</title>
+    <link rel="stylesheet" href="/Styles/demo.css">
 </head>
 
 
 <body>
 
-    <header>
+
     <div class="navbar">
         <a class="logo">EdTechHub</a>
         <div class="nav-links">
-            <a href="index.html" id="nav-home" class="active">Home</a>
-            <a id="nav-demo" href="demo.html">Demo Sandbox</a>
-            <a href="readme.html" id="nav-doc">Documentation</a>
-            <a href="courses.html">Programs</a>
-            <form action="form.html" style="display: inline;">
+            <a href="/index.html" id="nav-home" class="active">Home</a>
+            <a href="/Pages/demo.html" id="nav-demo"  >Demo Sandbox</a>
+            <a href="/Pages/readme.html" id="nav-doc">Documentation</a>
+            <a href="/Pages/courses.html">Programs</a>  
+            <a href="/Pages/contact.html">Contact</a>
+
+           <form action="form.html" style="display: inline;">
                 <button class="signin-btn" type="submit">Sign in</button>
             </form>
         </div>
     </div>
-
-    </header>
-
-        
-
-    <div class="container">
+<div class="container">
         <div class="main-content">
             <div class="video-placeholder">
                 <h3>[Mock Stream] Live Class: Introduction to Day Trading & Technical Analysis</h3>
@@ -48,7 +45,7 @@
                     <label style="display:block; margin-bottom:8px;"><input type="radio" name="quiz"> Direct continuation of a strong downward bearish run</label>
                     <label style="display:block; margin-bottom:8px;"><input type="radio" name="quiz"> Immediate stagnation and low market volume volatility</label>
                 </div>
-                <button class="btn">Submit Answer</button>
+                <button class="btn" onclick="alert('Demo Response Submitted! In production, this stores to the student database.')">Submit Answer</button>
             </div>
         </div>
 
@@ -61,33 +58,12 @@
                 <div class="chat-msg"><strong>Instructor</strong>: For entry setups, look at the 5-minute chart, Amit. 15-minute is for structural trend analysis.</div>
                 <div class="chat-msg"><strong>Priya S.</strong>: Will this exact dashboard setup be used for the Digital Marketing analytics live class tomorrow?</div>
                 <div class="chat-msg"><strong>Support System</strong>: Yes Priya! The dashboard automatically updates based on your enrolled batch track.</div>
-        </div>
+            </div>
             
             <input type="text" placeholder="Type your doubt here..." style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; margin-bottom:25px;">
 
             <h3>Offline Center Hybrid Sync</h3>
-            <p style="font-size: 12px; color: #666;">Physical labs scheduled for this week's active learning tracks:</p>
-        </body>
+            <p style="font-size: 12px; color: #666;">Physical labs scheduled for this week's active learning </p> 
 
-<style>
-     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
 
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #ffffff;
-            padding: 15px 5%;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .logo { font-size: 22px; font-weight: 700; color: #2563eb; text-decoration: none; }
-        .nav-links a { margin-right: 25px; text-decoration: none; color: #475569; font-weight: 500; }
-        .nav-links a:hover { color: #2563eb; }
-        .cta-btn { background: #2563eb; color: #ffffff; padding: 10px 20px; border-radius: 6px; border: none; font-weight: 600; cursor: pointer; }
-        .cta-btn:hover { background: #1d4ed8; }
-        
-</style>
-            
+   

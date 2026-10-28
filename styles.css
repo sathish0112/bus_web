@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2563eb;
+  text-decoration: none;
+}
+.nav-links a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #475569;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #2563eb;
+}
+.signin-btn {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background-color: #1D4ED8;
+}
+.hero-section {
+  background: linear-gradient(135deg, #091026 0%, #0740c4 100%);
+  color: #ffffff;
+  padding: 80px 5%;
+}
+.hero-content {
+  max-width: 800px;
+  margin: 20px auto;
+}
+.hero-title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-left: 20px;
+}
+.hero-subtitle {
+  font-size: 18px;
+  color: #94a3b8;
+  text-align: center;
+  margin-left: 40px;
+  line-height: 1.6;
+}
+
+.home-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5277ef;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  padding: 80px 8%;
+  gap: 50px;
+}
+
+.home-content {
+  flex: 1;
+  max-width: 100%;
+}
+
+.home-title {
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #070c15dd;
+}
+
+.home-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  color: #f8f9fa;
+}
+
+.home-cta {
+  display: inline-block;
+  background-color: #f1f2f4f6;
+  color: #1e3a8a;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.home-cta:hover {
+  background-color: #1d4ed8;
+}
+
+.home-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+.footer{
+   background-color: #2f56e3;
+        text-align: center;
+        padding: 20px ;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #f8fafc;
+        margin: None;
+}

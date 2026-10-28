@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+ <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,15 +9,23 @@
        <nav class="navbar">
         <a  class="logo">EdTechHub</a>
         <div class="nav-links">
-            <a href="index.html" id="nav-home" class="active">Home</a>
-            <a id="nav-demo" href="demo.html" >Demo Sandbox</a>
-            <a id="nav-doc">Documentation</a>
-            <a href="courses.html">Programs</a>
-                 <form action="form.html" style="display: inline;">
+            <a href="/index.html" id="nav-home" class="active">Home</a>
+            <a href="/Pages/demo.html" id="nav-demo"  >Demo Sandbox</a>
+            <a href="/Pages/readme.html" id="nav-doc">Documentation</a>
+            <a href="/Pages/courses.html">Programs</a>
+            <a href="/Pages/contact.html">Contact</a>
+            
+            <form action="form.html" style="display: inline;">
                 <button class="signin-btn" type="submit">Sign in</button>
             </form>
         </div>
     </nav>
+    <section class="hero-description">
+    <h1>Explore Our Programs</h1>
+    <p class="lead-text">
+        Accelerate your career with industry-mapped coding tracks. Master frontend 
+        architecture, deploy live applications, and test your logic in our secure sandbox.
+    </p>
      <div class="course-grid" id="courseGrid">
             
             <div class="course-card" data-modes="online,offline">
@@ -80,6 +88,7 @@
 
         </div>
     </div>
+    </section>
 <style>
      * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
         body { background-color: #f8fafc; color: #1e293b; padding-bottom: 60px; }
@@ -102,4 +111,300 @@
         .cta-btn:hover { background: #1d4ed8; }
 
         
-</style>
+</style> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EdTechHub | Course Tracks</title>
+
+    <link rel="stylesheet" href="/Styles/courses.css">
+</head>
+<body id="top">
+    <nav class="navbar">
+        <a href="/index.html" class="logo">EdTechHub</a>
+
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/Pages/demo.html">Demo Sandbox</a>
+            <a href="/Pages/readme.html">Documentation</a>
+            <a href="/Pages/courses.html" class="active">Programs</a>
+            <a href="/Pages/contact.html">Contact</a>
+            <a href="/Pages/form.html" class="signin-btn">Sign In</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <span class="eyebrow">YOUR FUTURE STARTS HERE</span>
+
+        <h1>Choose Your <span>Career Track.</span></h1>
+
+        <p>
+            Don't just learn the theory. Experiment, solve real-world
+            challenges, and build the skills to move your career forward.
+        </p>
+
+        <a href="#tracks" class="hero-btn">Explore All Tracks ↓</a>
+
+        <div class="hero-stats">
+            <div>
+                <strong>06</strong>
+                <span>Learning Tracks</span>
+            </div>
+            <div>
+                <strong>Hands-on</strong>
+                <span>Interactive Practice</span>
+            </div>
+            <div>
+                <strong>Career-focused</strong>
+                <span>Practical Skills</span>
+            </div>
+        </div>
+    </header>
+
+    <main id="tracks" class="courses-section">
+
+        <div class="section-heading">
+            <span class="eyebrow">EXPLORE YOUR POTENTIAL</span>
+            <h2>Find Your Learning Path</h2>
+            <p>
+                Choose a track, try the challenge, and discover
+                what you could build with your skills.
+            </p>
+        </div>
+
+        <div class="course-grid">
+
+            <article class="course-card">
+                <div class="card-top">
+                    <span class="course-icon">{"</>"}</span>
+                    <span class="category">DEVELOPMENT</span>
+                </div>
+
+                <h3>CCBP Tech 4.0 Web Intensive</h3>
+
+                <p class="course-description">
+                    Build modern websites and learn the foundations
+                    of frontend and full-stack development.
+                </p>
+
+                <div class="challenge">
+                    <span class="challenge-label">TRY & EXAMINE</span>
+                    <h4>Fix the Broken Code</h4>
+                    <p>
+                        Fix a broken HTML/CSS element live and
+                        see how your changes improve the page.
+                    </p>
+                </div>
+
+                <div class="career">
+                    <span>YOUR CAREER PATH</span>
+                    <p>
+                        Aim for a Full-Stack Engineer role at
+                        leading product companies.
+                    </p>
+                </div>
+
+                <a href="/Pages/demo.html" class="course-btn">
+                    Try Demo <span>→</span>
+                </a>
+            </article>
+
+            <article class="course-card">
+                <div class="card-top">
+                    <span class="course-icon">:arrow_upper_right:</span>
+                    <span class="category">MARKETING</span>
+                </div>
+
+                <h3>Dynamic Digital Marketing Masterclass</h3>
+
+                <p class="course-description">
+                    Explore digital campaigns, marketing strategy,
+                    audience growth, and performance analytics.
+                </p>
+
+                <div class="challenge">
+                    <span class="challenge-label">TRY & EXAMINE</span>
+                    <h4>Adjust Your Campaign</h4>
+                    <p>
+                        Tweak a marketing budget slider to explore
+                        how spending may affect estimated ROI.
+                    </p>
+                </div>
+
+                <div class="career">
+                    <span>YOUR CAREER PATH</span>
+                    <p>
+                        Work towards launching your own agency
+                        or becoming a Growth Lead.
+                    </p>
+                </div>
+
+                <a href="/Pages/demo.html" class="course-btn">
+                    Try Demo <span>→</span>
+                </a>
+            </article>
+
+            <article class="course-card">
+                <div class="card-top">
+                    <span class="course-icon">:arrow_upper_right:</span>
+                    <span class="category">TRADING & FINANCE</span>
+                </div>
+
+                <h3>Stock Market & Algo Trading Blueprint</h3>
+
+                <p class="course-description">
+                    Understand market behaviour, trading strategies,
+                    risk management, and algorithmic concepts.
+                </p>
+
+                <div class="challenge">
+                    <span class="challenge-label">TRY & EXAMINE</span>
+                    <h4>Run a Backtest</h4>
+                    <p>
+                        Toggle strategy variables to explore a
+                        historical backtest simulation.
+                    </p>
+                </div>
+
+                <div class="career">
+                    <span>YOUR CAREER PATH</span>
+                    <p>
+                        Develop skills for quantitative research
+                        and trading-related career opportunities.
+                    </p>
+                </div>
+
+                <a href="/Pages/demo.html" class="course-btn">
+                    Try Demo <span>→</span>
+                </a>
+            </article>
+
+            <article class="course-card">
+                <div class="card-top">
+                    <span class="course-icon">:eight_spoked_asterisk:</span>
+                    <span class="category">NEW TRACK</span>
+                </div>
+
+                <h3>Creative UI/UX Design Academy</h3>
+
+                <p class="course-description">
+                    Learn user research, visual design, wireframing,
+                    and user-friendly interface design.
+                </p>
+
+                <div class="challenge">
+                    <span class="challenge-label">TRY & EXAMINE</span>
+                    <h4>Repair the User Flow</h4>
+                    <p>
+                        Drag and drop interface elements to improve
+                        a confusing user journey.
+                    </p>
+                </div>
+
+                <div class="career">
+                    <span>YOUR CAREER PATH</span>
+                    <p>
+                        Build a strong design portfolio and work
+                        towards a Product Designer role.
+                    </p>
+                </div>
+
+                <a href="/Pages/demo.html" class="course-btn">
+                    Try Demo <span>→</span>
+                </a>
+            </article>
+
+            <article class="course-card">
+                <div class="card-top">
+                    <span class="course-icon">▤</span>
+                    <span class="category">NEW TRACK</span>
+                </div>
+
+                <h3>Data & AI Literacy for Business</h3>
+
+                <p class="course-description">
+                    Explore business data, analytical thinking,
+                    AI-assisted workflows, and useful insights.
+                </p>
+
+                <div class="challenge">
+                    <span class="challenge-label">TRY & EXAMINE</span>
+                    <h4>Discover Data Insights</h4>
+                    <p>
+                        Enter a prompt to explore how raw corporate
+                        data can be transformed into insights.
+                    </p>
+                </div>
+
+                <div class="career">
+                    <span>YOUR CAREER PATH</span>
+                    <p>
+                        Build relevant skills for Data Analyst
+                        and Business Intelligence roles.
+                    </p>
+                </div>
+
+                <a href="/Pages/demo.html" class="course-btn">
+                    Try Demo <span>→</span>
+                </a>
+            </article>
+
+            <article class="course-card">
+                <div class="card-top">
+                    <span class="course-icon">◇</span>
+                    <span class="category">NEW TRACK</span>
+                </div>
+
+                <h3>Product Management Foundations</h3>
+
+                <p class="course-description">
+                    Understand product strategy, prioritization,
+                    user needs, and product development.
+                </p>
+
+                <div class="challenge">
+                    <span class="challenge-label">TRY & EXAMINE</span>
+                    <h4>Prioritize Your Roadmap</h4>
+                    <p>
+                        Rank mock product features by user impact
+                        and decide what should be built first.
+                    </p>
+                </div>
+
+                <div class="career">
+                    <span>YOUR CAREER PATH</span>
+                    <p>
+                        Build a foundation for Product Manager
+                        and product strategy opportunities.
+                    </p>
+                </div>
+
+                <a href="/Pages/demo.html" class="course-btn">
+                    Try Demo <span>→</span>
+                </a>
+            </article>
+
+        </div>
+    </main>
+
+    <section class="final-cta">
+        <h2>Your Next Chapter Starts with One Step.</h2>
+        <p>
+            Explore our learning environment and discover
+            which skills you want to develop next.
+        </p>
+        <a href="/Pages/contact.html" class="hero-btn">
+            Contact Our Team →
+        </a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 EdTechHub. All rights reserved.</p>
+        <a href="#top">Back to Top ↑</a>
+    </footer>
+
+</body>
+</html>
